@@ -778,20 +778,33 @@ Other Style Guides
     ```
 
   <a name="functions--mutate-params"></a><a name="7.12"></a>
-  - [7.12](#functions--mutate-params) Never mutate parameters. eslint: [`no-param-reassign`](http://eslint.org/docs/rules/no-param-reassign.html)
+  - [7.12](#functions--mutate-params) Mutating parameters is allowed. eslint: [`no-param-reassign`](http://eslint.org/docs/rules/no-param-reassign.html)
 
-    > Why? Manipulating objects passed in as parameters can cause unwanted variable side effects in the original caller.
+    > Why? Manipulating objects passed in as parameters can cause unwanted variable side effects in the original caller. However, this behavior is sometimes desired. Enforcing this style rule when mutating parameters leads to obfuscation of what is actually being modified.
 
     ```javascript
     // bad
     function f1(obj) {
-      obj.key = 1;
+      // setting obj to a new local variable to avoid the eslint violation
+      const notObj = obj;
+      notObj.a = 1;
     }
 
-    // good
+    // ok
     function f2(obj) {
-      const key = Object.prototype.hasOwnProperty.call(obj, 'key') ? obj.key : 1;
+      // mutate obj directly to avoid adding an extra level of indirection
+      obj.a = 1;
     }
+
+    // ok
+    arr.forEach((item, index) => {
+      item.a = index;
+    });
+
+    // good
+    const newArr = arr.map((item, index) => {
+      return { a: index, b: item.b, c: item.c };
+    });
     ```
 
   <a name="functions--reassign-params"></a><a name="7.13"></a>
