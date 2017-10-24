@@ -1,6 +1,6 @@
 {
   "name": "@prosperworks/eslint-config-prosperworks",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A mostly reasonable approach to JavaScript.",
   "scripts": {
     "prelint": "editorconfig-tools check ./rules/*",
@@ -19,7 +19,6 @@
     "es6",
     "es2017"
   ],
-
   "devDependencies": {
     "editorconfig-tools": "^0.1.1",
     "eslint": "^3.19.0",
