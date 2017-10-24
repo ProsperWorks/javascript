@@ -9,6 +9,9 @@ module.exports = {
     './rules/syntax',
     './rules/white-space',
   ].map(require.resolve),
+  env: {
+    es6: true,
+  },
   parserOptions: {
     ecmaVersion: 2017,
     sourceType: 'module',
