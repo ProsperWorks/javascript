@@ -12,6 +12,6 @@ module.exports = {
     // 7.10 dupe in syntax.js
     'no-new-func': 'error',
     // 7.12, 7.13
-    'no-param-reassign': ['error', { props: false }],
+    'no-param-reassign': ['warn', { props: false }],
   },
 };
