@@ -7,9 +7,8 @@
     "lint": "eslint ./rules",
     "fix": "eslint ./rules --fix"
   },
-  "repository": "git+https://git@github.com/ProsperWorks/js-style.git",
-  "homepage": "https://github.com/ProsperWorks/js-style",
-  "author": "Eric Peterson <eric@prosperworks.com>",
+  "repository": "github:ProsperWorks/js-style",
+  "author": "ProsperWorks",
   "license": "MIT",
   "keywords": [
     "style guide",
@@ -21,7 +20,7 @@
   ],
   "devDependencies": {
     "editorconfig-tools": "^0.1.1",
-    "eslint": "^3.19.0",
+    "eslint": "^4.19.0",
     "eslint-find-rules": "^1.14.3",
     "eslint-plugin-import": "^2.2.0"
   },
