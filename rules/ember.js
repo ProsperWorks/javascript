@@ -1,0 +1,20 @@
+module.exports = {
+  rules: {
+    'ember/avoid-leaking-state-in-ember-objects': 1,
+    'ember/closure-actions': 1,
+    'ember/jquery-ember-run': 1,
+    'ember/new-module-imports': 1,
+    'ember/no-attrs-in-components': 1,
+    'ember/no-attrs-snapshot': 1,
+    'ember/no-capital-letters-in-routes': 1,
+    'ember/no-duplicate-dependent-keys': 1,
+    'ember/no-function-prototype-extensions': 1,
+    'ember/no-global-jquery': 1,
+    'ember/no-old-shims': 1,
+    'ember/no-on-calls-in-components': 1,
+    'ember/no-side-effects': 1,
+    'ember/require-super-in-init': 1,
+    'ember/routes-segments-snake-case': 1,
+    'ember/use-brace-expansion': 1,
+  },
+};

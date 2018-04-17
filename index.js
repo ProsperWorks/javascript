@@ -1,3 +1,9 @@
+/**
+ * Basic js style guide enforcement for any js project.
+ *
+ * How to use:
+ * In your .eslintrc.js extend @prosperworks/eslint-config
+ */
 module.exports = {
   extends: [
     './rules/comparison',
