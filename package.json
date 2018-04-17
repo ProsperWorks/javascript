@@ -3,7 +3,6 @@
   "version": "1.1.2",
   "description": "A mostly reasonable approach to JavaScript.",
   "scripts": {
-    "prelint": "editorconfig-tools check ./rules/*",
     "lint": "eslint ./rules",
     "fix": "eslint ./rules --fix"
   },
@@ -19,12 +18,11 @@
     "es2017"
   ],
   "devDependencies": {
-    "editorconfig-tools": "^0.1.1",
     "eslint": "^4.19.0",
-    "eslint-find-rules": "^1.14.3",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint-plugin-ember": "^5.1.0",
+    "eslint-plugin-import": "^2.11.0"
   },
   "engines": {
-    "node": ">= 6"
+    "node": ">= 8"
   }
 }
