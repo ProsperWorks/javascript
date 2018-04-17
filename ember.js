@@ -1,5 +1,6 @@
 /**
- * Style guide enforcement based on the PW standard and addtl ember-specific rules.
+ * Style guide enforcement inherits the PW standard from index.js and adds
+ * additional ember-specific rules.
  *
  * How to use:
  * In your .eslintrc.js extend @prosperworks/eslint-config/ember
