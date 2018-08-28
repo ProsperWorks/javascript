@@ -10,9 +10,11 @@ module.exports = {
     'ember',
   ],
   extends: [
+    'plugin:ember/recommended',
+  ].concat([
     './index',
     './rules/ember',
-  ].map(require.resolve),
+  ].map(require.resolve)),
   env: {
     browser: true,
   },
