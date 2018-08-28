@@ -1,20 +1,16 @@
 module.exports = {
+  /**
+   * We want to use the recommended ember settings but we are failing a lot of them
+   * and they are non-trivial to clean up. Downgrade these errors to warnings or
+   * disable them for the time being. As we fix them we can remove them from this
+   * file with the ultimate goal of not needing any overrides at all.
+   */
   rules: {
     'ember/avoid-leaking-state-in-ember-objects': 1,
-    'ember/closure-actions': 1,
+    'ember/closure-actions': 0,
     'ember/jquery-ember-run': 1,
-    'ember/new-module-imports': 1,
-    'ember/no-attrs-in-components': 1,
-    'ember/no-attrs-snapshot': 1,
-    'ember/no-capital-letters-in-routes': 1,
-    'ember/no-duplicate-dependent-keys': 1,
-    'ember/no-function-prototype-extensions': 1,
-    'ember/no-global-jquery': 1,
-    'ember/no-old-shims': 1,
     'ember/no-on-calls-in-components': 1,
     'ember/no-side-effects': 1,
-    'ember/require-super-in-init': 1,
-    'ember/routes-segments-snake-case': 1,
     'ember/use-brace-expansion': 1,
   },
 };

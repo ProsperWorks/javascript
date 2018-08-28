@@ -50,7 +50,7 @@ module.exports = {
 
     // Not Autofixable -----------------------------------------------------------------------------
     // 18.12
-    'max-len': ['warn', {
+    'max-len': ['error', {
       code: 100,
       ignoreComments: true,
       ignoreStrings: true,
