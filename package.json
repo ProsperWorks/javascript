@@ -4,7 +4,6 @@
   "description": "A mostly reasonable approach to JavaScript.",
   "repository": "github:ProsperWorks/js-style",
   "author": "ProsperWorks",
-  "private": true,
   "license": "MIT",
   "keywords": [
     "eslint",
