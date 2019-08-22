@@ -1,8 +1,9 @@
 {
-  "name": "@prosperworks/eslint-config",
+  "name": "eslint-config-copper",
   "version": "3.0.0",
   "description": "A mostly reasonable approach to JavaScript.",
   "repository": "github:ProsperWorks/js-style",
+  "private": true,
   "author": "ProsperWorks",
   "license": "MIT",
   "keywords": [
