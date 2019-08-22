@@ -1,11 +1,6 @@
-# ProsperWorks JavaScript Style Guide() {
+# Copper JavaScript Style Guide() {
 
 *A mostly reasonable approach to JavaScript*
-
-Other Style Guides
- - [Ember.js](https://github.com/DockYard/styleguides/blob/master/engineering/ember.md)
- - [CSS Guidelines](https://github.com/ProsperWorks/ALI/wiki/CSS-Guidelines)
- - [~~CSS-in-JavaScript~~](css-in-javascript/) *Needs review*
 
 ## Table of Contents
 
